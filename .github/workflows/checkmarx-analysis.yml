@@ -47,6 +47,7 @@ jobs:
           incremental: false
           # GitHub API Token (note: you don't have to create secrets.GITHUB_TOKEN, it is created automatically and will not appear in your repo's custom secrets)
           github_token: ${{secrets.GITHUB_TOKEN}}
+      #test  
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v1
         with:
