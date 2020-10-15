@@ -26,10 +26,12 @@ jobs:
       with:
         project: GithubActionTest
         team: '/CxServer'
+        incremental: false 
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
+        github_token: ${{ secrets.CHECKMARX_GITHUB_TOKEN }}
     # Upload the Report for CodeQL/Security Alerts
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v1
