@@ -56,7 +56,7 @@ checkmarx:
 
 json:
   data-folder: ""
-  file-name-format: "[NAMESPACE]-[REPO]-[BRANCH]-[TIME].json"
+  file-name-format: "Checkmarx-[TIME].json"
  
 cx-xml:
   file-name-format: "[NAMESPACE]-[REPO]-[BRANCH]-[TIME].xml"
