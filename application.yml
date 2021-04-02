@@ -30,8 +30,7 @@ cx-flow:
   http-connection-timeout: 3000 #milliseconds - default 30000
   http-read-timeout: 120000 #milliseconds - default 120000
   enabled-vulnerability-scanners:
-    - sast
-    - SCA
+    - SAST
 
 checkmarx:
   version: 9.0
