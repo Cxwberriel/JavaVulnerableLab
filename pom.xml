@@ -24,6 +24,11 @@
 	    <artifactId>json</artifactId>
 	    <version>20090211</version>
 	</dependency>
+     <dependenc>
+	    <groupId>will</groupId>
+	    <artifactId>will</artifactId>
+	    <version>1.01</version>
+      </dependency>  
 	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>jstl</artifactId>
