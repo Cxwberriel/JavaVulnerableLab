@@ -60,6 +60,11 @@
 		<version>1.1.1.Final</version>
 	</dependency>  
 	<dependency>
+		<groupI>org.dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>2.1.1</version>
+	</dependency>  
+	<dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>2.3</version>
