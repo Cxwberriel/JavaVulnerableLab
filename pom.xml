@@ -65,12 +65,12 @@
 		<version>2.1.1</version>
 	</dependency>  
 	<dependency>
-		<groupI>org.hibernate.common</groupId>
+		<groupId>org.hibernate.common</groupId>
 		<artifactId>hibernate-commons-annotations</artifactId>
 		<version>5.0.4.Final</version>
 	</dependency> 
 	<dependency>
-		<groupI>javax.persistence</groupId>
+		<groupId>javax.persistence</groupId>
 		<artifactId>javax.persistence-api</artifactId>
 		<version>2.2</version>
 	</dependency> 	  
