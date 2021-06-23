@@ -50,6 +50,16 @@
 		<version>4.1.0</version>
 	</dependency>
 	<dependency>
+		<groupId>org.javassist</groupId>
+		<artifactId>javassist</artifactId>
+		<version>3.23.1-GA</version>
+	</dependency>
+	<dependency>
+		<groupId>org.jboss.spec.javax.transaction</groupId>
+		<artifactId>JBoss Transaction API 1 2 Spec</artifactId>
+		<version>1.1.1.Final</version>
+	</dependency>  
+	<dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>2.3</version>
